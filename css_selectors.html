@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Selectors</title>
+    
+    <style>
+        /* Element Selectotrs */
+        body {
+            background-color: darkslategrey;
+        }
+
+        /* . is for selecting class */
+        .heading {
+            color: yellowgreen;
+        }
+
+        /* # is for selecting id */
+        #box1 {
+            background-color: antiquewhite;
+        }
+
+        /* Multiple Selectors */
+        #box1, #box2 {
+            border: 1px solid #fff;
+            margin: 13px 0px;
+            padding: 10px;
+        }
+
+        /* Nested Selector */
+        #box1 p {
+            font-size: 22px;
+        }
+
+        /* # is for selecting id */
+        #box2 {
+            font-size: 20px;
+            color: white;
+            border: 3px solid black;
+        }
+    </style>
+    
+</head>
+<body>
+    <div id="box1">
+        <h3 class="heading">HELLO WORLD</h3>
+        <p> 
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ut pariatur autem nobis repellendus accusantium magni, voluptatem repellat excepturi, quo harum ea laboriosam aperiam rem accusamus commodi ratione doloremque repudiandae sunt facilis sit, modi earum saepe architecto. Esse perferendis aspernatur quod repudiandae natus facilis reiciendis quae vitae! Asperiores itaque enim beatae. 
+        </p>
+    </div>
+    <div id="box2">
+        <h3 class="heading">IT'S A TRAP</h3>
+        <p>
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Minima, dignissimos enim. Animi officiis assumenda blanditiis ipsum debitis magni, commodi sequi esse. Impedit veniam veritatis error. Quas commodi rerum debitis corrupti.
+        </p>
+    </div>
+</body>
+</html>

@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>T-Shirt</title>
+</head>
+
+<body>
+    <form action="">
+        <div style="background-color: rgb(250, 199, 133);">
+            <h1>Place Order</h1>
+    
+            <h3><u>My Order</u></h3>
+            <img src="images/T-shirt.jpeg" width="200px" alt="This is my T-Shirt">
+    
+            <p><h3>Tagline on the T-shirt:</h3>
+                <input type="text" name="tagline">
+            </p>
+    
+            <p>
+                <h3>Choose T-shirt color:</h3>
+                <input type="radio" name="color" id="Blue">Blue
+                <br>
+                <input type="radio" name="color" id="Grey">Grey
+                <br>
+                <input type="radio" name="color" id="Black">Black
+            </p>
+
+            <p>
+                <b>Choose T-shirt size:</b>
+                <select name="size" id="size">
+                    <option value="">---Select your t-shirt size---</option>
+                    <option value="small">S</option>
+                    <option value="medium">M</option>
+                    <option value="large">L</option>
+                    <option value="excel">XL</option>
+                    <option value="double excel">XXL</option>
+                    <option value="tripple excel">XXXL</option>
+                </select>
+            </p>
+
+            <p>
+                <b>Choose quantity:</b>
+                <select name="quantity" id="quantity">
+                    <option value="">---Select how many t-shirt's you want---</option>
+                    <option value="one">1</option>
+                    <option value="two">2</option>
+                    <option value="three">3</option>
+                    <option value="four">4</option>
+                    <option value="five">5</option>
+                </select>
+            </p>
+
+            <p>
+                <b>Order Date:</b>
+                <input type="date" name="order_date" id="order_date">
+            </p>
+
+            <p>
+                <b>Enter your name:</b>
+                <input type="text" name="name" id="name">
+            </p>
+
+            <p>
+                <b>Enter your mobile number:</b>
+                <input type="text" name="mobile_number" id="mobile_number">
+            </p>
+
+            <p>
+                <h4>Enter your address:</h4>
+                <textarea name="address" id="address" cols="65" rows="7" placeholder="Enter your address"></textarea>
+            </p> 
+
+            <p>
+                <h3>Choose payment options:</h3>
+                <input type="radio" name="payment" id="gpay">Google Pay
+                <br>
+                <input type="radio" name="payment" id="cash">Cash
+                <br>
+                <input type="radio" name="payment" id="paytm">Paytm
+            </p>
+
+            <p>
+                <b>Total amount:</b>
+                &#x20B9 700
+            </p>
+
+            <input type="submit" value="Place Order">
+        </div>  
+    </form>    
+</body>
+
+</html>
